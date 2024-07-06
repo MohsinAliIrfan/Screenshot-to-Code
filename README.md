@@ -4,7 +4,7 @@ Converts your Screenshots to Html, Css or React or Flutters code as per your nee
 Used gpt-4 omini so you would require an openAI api_key.
 
 # Running the Project:
-Go to the backendfolder --> Codegenerator.py  -->  line9: template_dir = 'D:\\Image code generator\\Screenshot-to-Code\\backend' (path for template.j2)
+Go to the backend folder --> Codegenerator.py  -->  line9: template_dir = 'D:\\Image code generator\\Screenshot-to-Code\\backend' (path for template.j2)
 Change it according to the directory you have cloned the project in, you can do it by simply right clicking on the template.j2 --> copy path --> swap it with the one already on line9 in Codegenerator.py.
 
 - cd frontend
