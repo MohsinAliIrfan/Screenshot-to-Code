@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <div class="input-group">
+                <label for="api-key">API Key:</label>
+                <input type="text" id="api-key" name="api-key" placeholder="Enter your API key">
+            </div>
+            <div class="input-group">
+                <label for="prompt">Prompt (optional):</label>
+                <input type="text" id="prompt" name="prompt" placeholder="Enter a prompt">
+            </div>
+            <div class="input-group">
+                <label for="framework">Select Framework:</label>
+                <select id="framework" name="framework">
+                    <option value="html-css">HTML CSS</option>
+                    <option value="html-tailwind">HTML Tailwind</option>
+                    <option value="react">React</option>
+                    <option value="flutter">Flutter</option>
+                </select>
+            </div>
+            <div class="upload-container">
+                <label for="image-upload" class="image-upload-label">Drop an image here or paste it</label>
+                <input type="file" id="image-upload" name="image-upload" accept="image/*">
+            </div>
+            <button id="run-button" class="run-button">Run</button>
+        </div>
+        <div class="right-panel">
+            <div class="image-preview" id="image-preview">Your Image</div>
+            <div class="output-container">
+                <textarea id="output" class="output" readonly placeholder="Output will be displayed here"></textarea>
+                <button id="copy-button" class="copy-button">Copy</button>
+                <button id="download-button" class="download-button">Download as HTML</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
