@@ -17,6 +17,7 @@ The uploaded image will be visible on the right, just like in the screenshot bel
 
 THATS IT!!
 
+# OPTIONAL 
 The backend directory holds all the backend working of the website which includes code generating agent, image conversion, jira termplate, dealing with possible error.
 I have also inluded some images directly in the backend direcory so you can test the backend directly if required without running the frontend.
 so, for that
